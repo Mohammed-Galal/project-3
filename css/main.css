@@ -96,9 +96,9 @@ section{
     font-weight: 400;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 900px) {
     .garyscale{
-        font-size: 2rem;
+        font-size: 2.3rem;
     }
 }
 
