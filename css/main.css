@@ -196,12 +196,8 @@ footer{
     background: #161616;
 }
 
-footer a:hover{
-    text-decoration: none;
-    color: #fff;
-}
 footer a{
-    color: rgba(255,255,255,.3);
+    color: rgba(255,255,255,.3) !important;
     background: rgba(255,255,255,.1);
     text-decoration: none;
     width: 50px !important;
@@ -215,4 +211,9 @@ footer a{
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: #fff !important;
 }

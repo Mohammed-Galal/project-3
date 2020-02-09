@@ -5,12 +5,12 @@
 }
 
 .ripple-an {
-    background: #f7f7f77a;
+    background: #f7f7f79f;
     z-index: 1;
     position: absolute;
     border-radius: 100%;
-    animation: ripple .75s ease-out forwards;
-    -webkit-animation: ripple .75s ease-out forwards;
+    animation: ripple .5s linear forwards;
+    -webkit-animation: ripple .5s linear forwards;
     transform: scale(.1);
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;

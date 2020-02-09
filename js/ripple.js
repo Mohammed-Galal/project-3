@@ -53,7 +53,7 @@ $(function () {
     }
 
     // mousemove mouseleave mouseout 
-    $('.ripple').on('mouseup touchend touchcancel', '.ripple-an', function () {
+    $('.ripple').on('mouseup touchend touchcancel mouseout', '.ripple-an', function () {
         $(this).fadeOut(600, () => {
             $(this).remove()
         });
