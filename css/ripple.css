@@ -9,8 +9,8 @@
     z-index: 1;
     position: absolute;
     border-radius: 100%;
-    animation: ripple .8s ease-out forwards;
-    -webkit-animation: ripple .8s ease-out forwards;
+    animation: ripple .75s ease-out forwards;
+    -webkit-animation: ripple .75s ease-out forwards;
     transform: scale(.1);
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
