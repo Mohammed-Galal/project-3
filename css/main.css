@@ -14,10 +14,6 @@ html {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
-    hyphens: auto;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
     scroll-behavior: smooth;
 }
 
@@ -82,7 +78,12 @@ section{
     background: linear-gradient(to bottom, rgba(22, 22, 22, .3) 0, rgba(22, 22, 22, .7) 75%, #161616 100%), url(../img/bg-masthead.jpg);
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat
+    background-origin: border-box;
+    background-clip: border-box;
+    -webkit-background-clip: border-box;
+    -moz-background-clip: border-box;
+    background-repeat: no-repeat;
+    background
 }
 
 .garyscale {
@@ -90,18 +91,13 @@ section{
     -webkit-text-fill-color: transparent !important;
     background-clip: text;
     -webkit-background-clip: text;
+    -moz-background-clip: text;
     letter-spacing: 1rem;
     font-size: 6.5rem;
     font-weight: 400;
 }
 
 @media screen and (max-width: 992px) {
-    .garyscale{
-        font-size: 4.5rem;
-    }
-}
-
-@media screen and (max-width: 586px) {
     .garyscale{
         font-size: 3.5rem;
     }
