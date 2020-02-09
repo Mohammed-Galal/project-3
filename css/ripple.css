@@ -1,0 +1,33 @@
+.ripple {
+    position: relative !important;
+    overflow: hidden !important;
+    z-index: 2;
+}
+
+.ripple-an {
+    background: #f7f7f763;
+    z-index: 1;
+    position: absolute;
+    border-radius: 100%;
+    animation: ripple .5s ease-out forwards;
+    -webkit-animation: ripple .5s ease-out forwards;
+    transform: scale(.1);
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    -webkit-transform: scale(.1);
+    -moz-transform: scale(.1);
+    -ms-transform: scale(.1);
+    -o-transform: scale(.1);
+}
+
+@keyframes ripple {
+    100% {
+        transform: scale(3);
+        -webkit-transform: scale(3);
+        -moz-transform: scale(3);
+        -ms-transform: scale(3);
+        -o-transform: scale(3);
+    }
+}
