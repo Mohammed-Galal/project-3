@@ -22,6 +22,16 @@
     -o-transform: scale(.2);
 }
 
+@-webkit-keyframes ripple {
+    100% {
+        transform: scale(3);
+        -webkit-transform: scale(3);
+        -moz-transform: scale(3);
+        -ms-transform: scale(3);
+        -o-transform: scale(3);
+    }
+}
+
 @keyframes ripple {
     100% {
         transform: scale(3);
